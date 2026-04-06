@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9</title>
+</head>
+<body>
+    <form action="mailton:seu.email.@seuemail.com" method="post"></form>
+    <table border="1">
+        
+        <thead>Formulario</thead>
+        <tbody>
+           <tr>
+                <td>Nome</td>
+                 <td>
+                    <input type="text" name="nome-usuario" id="nome-usuario" size="40" placeholder="Digite seu nome">
+                </td>
+           </tr>
+           <tr>
+                <td>E-mail pessoal:</td>
+                <td>
+                    <input type="text" name="email-pessoal-usuario" id="email-pessoal-usuario" size="40">
+                </td>
+           </tr>
+           <tr>
+                <td>E-mail(patter)</td>
+                <td>
+                    <input type="text" name="email-patter-usuario" id="email-patter-usuario" size="40">
+                </td>
+           </tr>
+           <tr>
+                <td>Senha</td>
+                <td>
+                    <input type="text" name="senha-usuario" id="senha-usuario" size="40">
+                </td>
+           </tr>
+           <tr>
+                <td>Idade</td>
+                <td>
+                    <input type="text" name="idade-usuario" id="idade-usuario" size="20">
+                </td>
+           </tr>
+           <tr>
+               <td colspan="2">
+                   Deixe um comentário
+                   <br>
+                   <textarea name="comentario" cols="50" rows="10" placeholder="Escreva um texto"></textarea>
+                </td>       
+           </tr>
+           <tr>
+                <td>
+                    <label for="">Material de interesse: </label>
+                    <br>
+                    <input type="checkbox" name="beckend" id="backend">BackEnd
+                    <br>
+                    <input type="checkbox" name="frontend" id="frontend">FrontEnd
+                    <br>
+                    <input type="checkbox" name="fullstack" id="fullstack">FullStack
+                </td>
+                <td>
+                    <label for="">Tipo de viagem: </label>
+                    <br>
+                    <input type="radio" id="opcao" name="opcao" value="no">Negócio
+                    <br>
+                    <input type="radio" id="opcao" name="opcao" value="no">Lazer
+                    <br>
+                    <input type="radio" id="opcao" name="opcao" value="no">Turismo
+                    <br>
+                    <input type="radio" id="opcao" name="opcao" value="no">Acadêmico
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
