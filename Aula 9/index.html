@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +27,7 @@
            <tr>
                 <td>E-mail(patter)</td>
                 <td>
-                    <input type="text" name="email-patter-usuario" id="email-patter-usuario" size="40">
+                    <input type="text" name="email-patter-usuario" id="email-patter-usuario" size="40" placeholder="Digite seu email com @">
                 </td>
            </tr>
            <tr>
@@ -70,7 +71,58 @@
                     <input type="radio" id="opcao" name="opcao" value="no">Acadêmico
                 </td>
             </tr>
-
+            <tr>
+                <td>
+                    <label for="">Região de interesse: </label>
+                    <select name="locais" id="locais" size="4" multiple>
+                        <option value=""selecionar>Selecionar</option>
+                        <option value="futebol">Futebol</option>
+                        <option value="basquete">Basquete</option>
+                        <option value="volei">Volei</option>
+                        <option value="tenis">Tenis</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Investimentos </label>:
+                    <select name="investimentos" size=11>
+                        <option value=""></option>
+                        <option value="poupanca" selected>Poupança</option>
+                        <option value="cdb" selected>CDB</option>
+                        <option value="tesouro_direto" selected>Tesouro Direto</option>
+                        <option value="" ></option>
+                        <option value="fundos_imobiliarios" selected>Fundos Imobiliários</option>
+                        <option value="cdi" selected>CDI</option>
+                        <option value="debentures" selected>DEBÊNTURES</option>
+                        <option value=""></option>
+                        <option value="criptomoedas" selected>Criptomoed as</option>
+                        <option value="acoes" selected>Ações</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Escolha uma cor:</label>
+                    <input type="color">
+                </td>
+                <td>
+                    <label for="">Selecione um arquivo</label>
+                   <input type="file" name="myfile">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="">Data e Hora envio:</label>
+                    <input type="datetime-local">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button"Excluir value="Enviar">
+                </td>
+                <td>
+                    <input type="button" value="Limpar">
+                </td>
+            </tr>
         </tbody>
     </table>
 </body>
