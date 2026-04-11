@@ -14,7 +14,7 @@ body
 
 /* CAIXA DO CONTEÚDO */
 main {
-    background-color: #2c2f36; /* cor diferente do fundo */
+    background-color: #2c2f36;
     width: 90%;
     max-width: 80% ;
     margin: auto;
@@ -297,7 +297,6 @@ footer a {
     padding: 10px;
 }
 
-/* inputs mais organizados */
 .form_table input,
 .form_table select {
     margin-top: 5px;
@@ -332,7 +331,6 @@ footer a {
     min-height: 89vh;
 }
 
-/* LAYOUT PRINCIPAL (imagem + texto lado a lado) */
 .github_historia {
     display: flex;
     align-items: center;
@@ -348,14 +346,12 @@ footer a {
     border-radius: 10px;
 }
 
-/* BLOCO DO TEXTO */
 .github_texto_box {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-/* TITULO */
 .github_titulo {
     margin: 0 0 5px 0;
     font-size: 4vh;
