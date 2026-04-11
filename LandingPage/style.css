@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    color: #edf0f1;
+}
+body
+{
+    background-color: #24252A;
+}
+
+/* CAIXA DO CONTEÚDO */
+main {
+    background-color: #2c2f36; /* cor diferente do fundo */
+    width: 90%;
+    max-width: 80% ;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 90vh;
+}
+hr {
+    border: 1px solid #24252A;
+}
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2vh 10%;
+    font-family: "Arimo", sans-serif;
+    background-color: #232630;
+}
+li, a, button
+{
+    font-weight: 500px;
+    font-size: 1.4vh;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.logo_house
+{
+    height: 30px;
+}
+.logo
+{
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav_links
+{
+    list-style: none;
+}
+.nav_links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a
+{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover
+{
+    color: #0088a9
+}
+button
+{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover
+{    
+    background-color: rgba(0,136,169,0.6);
+}
+
+/* _________________________________________________ */
+.minha_historia
+{
+    padding: 2vh 10%;
+    margin-right: 2vh;
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    margin-top: 2vh;
+}
+
+.img_container {
+    position: relative;
+    display: block;
+}
+
+.minha_foto {
+    width: 20vh;
+    display: block;
+}
+
+.titulo_box {
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+    
+}
+
+.minha_histotia_txt{
+    
+    max-width: 50%;
+    font-family: "Arimo", sans-serif;
+    color: #edf0f1;
+    font-size: 1.5vh;
+    margin-right: 3vh;
+    text-align: justify;
+}
+.minha_historia_tittle
+{
+    margin-bottom: 1vh;
+}
+
+/* __________________________________________________ */
+
+
+.minha_hisotia_academica {
+    padding: 2vh 10%;
+    margin-right: 2vh;
+    display: flex;
+    justify-content:end;
+    text-align: right;  
+    gap: 2vh;
+    margin-top: 2vh;
+    margin: 0%;
+}
+
+.escola_alfredo_chaves_td
+{
+    margin: 0%;
+}
+
+.historia_academica_tittle {
+    margin-bottom: 10px;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.escola_alfredo_chaves {
+    width: 25vh;
+    margin: 0%;
+}
+.historia_academica_txt
+{
+    max-width: 70%;
+    font-family: "Arimo", sans-serif;
+    color: #edf0f1;
+    font-size: 1.5vh;
+    text-align: justify;
+    margin-left: 25%;
+}
+
+/* ---------------------------------------- */
+.tabela_Caracteristicas {
+    border-spacing: 50px;
+}
+.tabela_Caracteristicas td {
+    padding: 20px;
+}
+.tabela_Caracteristicas {
+    margin: auto;
+}
+.tabela_3
+{
+    font-size: 2vh;
+}
+
+/* _____________________________________________ */
+
+.objetivo {
+    text-align: center;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #232630;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(132, 132, 148);
+}
+.contrato_footer
+{
+    font-size: 2vh;
+}
+
+/* _______________ */
+
+
+.tabela_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 90%;
+    max-width: 80% ;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 90vh;
+    font-size: 2vh;
+}
+.tabela_container h1
+{
+    font-size: 3vh;
+    margin-bottom: 15px;
+}
+.tabela_container p {
+    font-size: 2vh;
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabela_precos {
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.tabela_precos th,
+.tabela_precos td {
+    padding: 20px 25px;
+}
+
+
+/* __________________________________________________ */
+
+.curriculo_container {
+    padding: 2vh 10%;
+    text-align:left;
+    font-family: Arial, sans-serif;
+    min-height: 90vh;
+}
+
+.curriculo_titulo h1 {
+    margin-bottom: 5px;
+}
+
+.curriculo_titulo h2 {
+    margin-top: 0;
+    color: gray;
+    margin-bottom: 2vh;
+}
+
+
+.curriculo_habilidades {
+    margin-top: 20px
+}
+
+.objetivos_txt {
+    font-size: 1.5vh;
+}
+
+.lista_habilidades {
+    list-style-position: inside;
+    padding: 0;
+}
+
+
+/* ____________________________________________ */
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    min-height: 90vh;
+}
+
+.form_table {
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.6vh;
+}
+
+.form_table td {
+    padding: 10px;
+}
+
+/* inputs mais organizados */
+.form_table input,
+.form_table select {
+    margin-top: 5px;
+    color: #1e1f22;
+    font-size: 1.4vh;
+}
+
+/* botões */
+.botoes {
+    text-align: center;
+    padding: 15px;
+}
+
+.botoes button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+.form_table {
+    color: #1e1f22;
+}
+.descricao
+{
+    font-size: 1vh;
+    color:#1e1f22;
+}
+
+
+/* _________________ */
+.github_container {
+    padding: 2vh 10%;
+    min-height: 89vh;
+}
+
+/* LAYOUT PRINCIPAL (imagem + texto lado a lado) */
+.github_historia {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+
+/* IMAGEM */
+.github_img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* BLOCO DO TEXTO */
+.github_texto_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* TITULO */
+.github_titulo {
+    margin: 0 0 5px 0;
+    font-size: 4vh;
+}
+
+/* TEXTO */
+.github_texto {
+    margin: 0;
+    font-size: 3vh;
+    color: #edf0f1;
+}
+.github_texto a:hover
+{
+    color: #045f75;
+}
+
+/* LINK */
+.github_texto a {
+    color: #0088a9;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
