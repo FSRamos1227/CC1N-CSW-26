@@ -1,0 +1,74 @@
+
+.botao
+{
+    background-color: antiquewhite;
+}
+.botao > button{
+    background-color: rgb(90, 59, 59);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+}
+.botao > button:hover
+{
+    background-color: rgb(59, 41, 41);
+
+}
+.botao button:active
+{
+    background-color: rgb(102, 41, 13);
+}
+
+.links
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(220, 245, 150);
+}
+
+.links > a
+{
+    text-decoration: none;
+    color: rgb(32, 61, 23);
+}
+.spotify::after
+{
+    content: "♬";
+}
+.spotify:active::after
+{
+    content: "✳";
+}
+.spotify:active::before
+{
+    content: "✳";
+}
+
+
+.youtube::after
+{
+    content: "♬";
+}
+.youtube:active::after
+{
+    content: "✳";
+}
+.youtube:active::before
+{
+    content: "✳";
+}
+
+.amazon-music::after
+{
+    content: "♬";
+}
+.amazon-music:active::after
+{
+    content: "✳";
+}
+.amazon-music:active::before
+{
+    content: "✳";
+}
+
