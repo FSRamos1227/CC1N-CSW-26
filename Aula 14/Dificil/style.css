@@ -9,7 +9,7 @@
 }
 html, body{
     height: 100%;
-font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 body
 {
@@ -53,6 +53,7 @@ li
 {
     display: flex;
     width: 100%;
+    height: auto;
     flex: 1 0 auto;
 }
 
@@ -61,49 +62,31 @@ li
 .corpo
 {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    align-items: flex-start;
     width: 100%;
-    gap: 5%;
-    padding: 2%;
+    gap: 2%;
+    padding: 3%;
+    max-height: 30%;
+    flex-wrap: wrap;
 }
-.corpo p{
-    text-align: center;
-    font-size: 15px;
-    width: 100%;
-}
-.bloco1
+.corpo div
 {
     display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
-    height: auto;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 100%;
-
-}
-.bloco2
-{
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
-    height: auto;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 100%;
-}
-.bloco1 div{
-    background-color: #ECF0F1;
+    background-color: rgb(219, 219, 219);
+    flex-grow: 2;
+    height: 80px;
     border-radius: 10px;
-    flex: 1 1 270px;
-    padding: 30px;
+    min-width: 300px;
 }
-.bloco2 div
-{   
-    background-color: #ECF0F1;
-    border-radius: 5px;
-    flex: 1 1 270px;
-    padding: 30px;
+.corpo div p
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
 }
 
 
@@ -112,26 +95,18 @@ li
 .barra_lateral
 {
     background-color: #284057;
-    width: 300px; 
-    flex: 0 0 300px; 
+    width: 200px; 
 }
 .barra_lateral ul
 {
-    width: 100%;
     display: flex;
     flex-direction: column;
-}
-.barra_lateral li{
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
 }
 .barra_lateral a{
     text-decoration: none;
     color: white;
     font-size: 20px;
     display: block;
-    width: 100%;
     padding: 12px 20px;
     box-sizing: border-box;
 }
