@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+    background-image: radial-gradient(#339DE3 40%,#2460A1);
+}
+
+.box-text{
+    width: 40%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+
+}
+
+.title1-box{
+    text-align: center;
+    color: #2460A1;
+}
+
+.title2-box{
+    color: #339DE3;
+}
+
+.text{
+    color: rgb(12, 15, 10);
+}
